@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 project(progressbar C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 
-add_executable(progressbar src/main.c src/ascii.c src/ascii.h)
+add_executable(progressbar src/main.c src/progress.c src/progress.h)

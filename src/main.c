@@ -1,4 +1,4 @@
-#include "ascii.h"
+#include "progress.h"
 #include <stdio.h>
 
 int main() {
