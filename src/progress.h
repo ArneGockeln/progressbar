@@ -15,8 +15,8 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef OREBIT_ASCII_H
-#define OREBIT_ASCII_H
+#ifndef ASCII_PROGRESSBAR_H
+#define ASCII_PROGRESSBAR_H
 
 #include <time.h>
 
@@ -63,4 +63,4 @@ void ascii_progressbar_set_opt(ascii_progressbar_t* ptr, ascii_progressbar_opt_e
 void ascii_progressbar_eta(ascii_progressbar_t* ptr);
 void ascii_progressbar_set_label(ascii_progressbar_t* ptr, const char* label);
 void ascii_progressbar(ascii_progressbar_t* ptr);
-#endif //OREBIT_ASCII_H
+#endif //ASCII_PROGRESSBAR_H
