@@ -59,13 +59,8 @@ void ascii_hide_cursor();
 void ascii_show_cursor();
 ascii_progressbar_t* ascii_progressbar_new(const char* label, double duration, int opt);
 void ascii_progressbar_free(ascii_progressbar_t* ptr);
-void ascii_progressbar_dotted(ascii_progressbar_t* ptr);
 void ascii_progressbar_set_opt(ascii_progressbar_t* ptr, ascii_progressbar_opt_e opt);
 void ascii_progressbar_eta(ascii_progressbar_t* ptr);
 void ascii_progressbar_set_label(ascii_progressbar_t* ptr, const char* label);
-
-//void ascii_progressbar_draw(const char *label, double percentage, const char *eta_label);
-//void ascii_progressbar_draw_nl(const char *label, double percentage, const char *eta_label);
-//void ascii_progressbar(const char* label, double value, unsigned int options);
 void ascii_progressbar(ascii_progressbar_t* ptr);
 #endif //OREBIT_ASCII_H
